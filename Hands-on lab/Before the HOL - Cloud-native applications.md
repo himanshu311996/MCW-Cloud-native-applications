@@ -310,20 +310,10 @@ single node.js site into a website with a content API that serves up the speaker
 In this section, you will validate that you can connect to the new build agent
 VM.
 
-1. From Azure cloud shell, run the following command to find the IP address for
-   the build agent VM provisioned when you ran the ARM deployment:
+1. From Environment details page go to **Command to Connect to Build Agent VM** copy the ssh key and paste in cloud shell:
 
    > **Note**: If you don't have cloud shell available, refer back to Task 1: Setup Azure Cloud Shell.
 
-   ```bash
-   az vm show -d -g fabmedical-[SUFFIX] -n fabmedical-[SHORT SUFFIX] --query publicIps -o tsv
-   ```
-
-   Example:
-
-   ```bash
-   az vm show -d -g fabmedical-sol -n fabmedical-SOL --query publicIps -o tsv
-   ```
 
 2. In the cloud shell output, take note of the public IP address for the VM.
 
