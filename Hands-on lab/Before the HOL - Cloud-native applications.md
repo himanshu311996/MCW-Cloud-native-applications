@@ -91,7 +91,7 @@ You should follow all of the steps provided in this section _before_ taking part
 
    ![In this screenshot of a Bash window, new storage account and file share will be created.](media/cloud_shell3.png)
 
-5. Bash will start working now .
+5. Bash will start working now 
 
    
 ### Task 2: Download Starter Files
