@@ -228,7 +228,7 @@ single node.js site into a website with a content API that serves up the speaker
 
     - **Connection name**: Fabmedical ACR
 
-    - **Docker registry**: **http://**(Login server of your azure container registry)
+    - **Docker registry**: **https://**(Login server of your azure container registry)
 
     - **Docker ID**: Username of your container registry
     
