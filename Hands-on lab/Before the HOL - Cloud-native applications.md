@@ -315,40 +315,12 @@ VM.
    > **Note**: If you don't have cloud shell available, refer back to Task 1: Setup Azure Cloud Shell.
 
 
-2. In the cloud shell output, take note of the public IP address for the VM.
+2. In the cloud shell output, paste  the ssh key that you copied earlier enter **yes** when prompted.
 
-   ![In this screenshot of the clouds shell output the Public IP address is shown.](media/b4-2019-10-01_11-58-05.png)
+   <kbd>![](media/build_agent.png)</kbd></br></br>
 
-3. Connect to the new VM you created by typing the following command:
-
-   ```bash
-    ssh -i [PRIVATEKEYNAME] [BUILDAGENTUSERNAME]@[BUILDAGENTIP]
-   ```
-
-   Replace the bracketed values in the command as follows:
-
-   - [PRIVATEKEYNAME]: Use the private key name ".ssh/fabmedical," created above.
-
-   - [BUILDAGENTUSERNAME]: Use the username for the VM, such as adminfabmedical.
-
-   - [BUILDAGENTIP]: The IP address for the build agent VM, retrieved in the previous step
-
-   ```bash
-   ssh -i .ssh/fabmedical adminfabmedical@52.174.141.11
-   ```
-
-4. When asked to confirm if you want to connect, as the authenticity of the connection cannot be validated, type "yes".
-
-5. When asked for the passphrase for the private key you created previously, enter this value.
-
-6. You will connect to the VM with a command prompt such as the following. Keep this command prompt open for the next step:
-
-   `adminfabmedical@fabmedical-SUFFIX:~$`
-
-   ![In this screenshot of a Command Prompt window, ssh -i .ssh/fabmedical adminfabmedical@52.174.141.11 has been typed and run at the command prompt. The information detailed above appears in the window. At this time, we are unable to capture all of the information in the window. Future versions of this course should address this.](media/b4-image27.png)
-
-> **Note**: If you have issues connecting, you may have pasted the SSH public key incorrectly in the ARM template. Unfortunately, if this is the case, you will have to recreate the VM and try again.
-
+3. Enter the Buid Agent VM password provided in environment details, you will be connected to Build Agent VM:
+   <kbd>![](media/build_agent1.png)</kbd></br></br>
 
 ### Task 5: Clone Repositories to the Build Agent
 
