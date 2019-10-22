@@ -29,14 +29,9 @@ The names of manufacturers, products, or URLs are provided for informational pur
   - [Before the hands-on lab](#before-the-hands-on-lab)
     - [Task 1: Setup Azure Cloud Shell](#task-1-setup-azure-cloud-shell)
     - [Task 2: Download Starter Files](#task-2-download-starter-files)
-    - [Task 3: Resource Group](#task-3-resource-group)
-    - [Task 4: Create an SSH key](#task-4-create-an-ssh-key)
-    - [Task 5: Create a Service Principal](#task-5-create-a-service-principal)
-    - [Task 6: Deploy ARM Template](#task-6-deploy-arm-template)
-    - [Task 7: Setup Azure DevOps project](#task-7-setup-azure-devops-project)
-    - [Task 8: Connect securely to the build agent](#task-8-connect-securely-to-the-build-agent)
-    - [Task 9: Complete the build agent setup](#task-9-complete-the-build-agent-setup)
-    - [Task 10: Clone Repositories to the Build Agent](#task-10-clone-repositories-to-the-build-agent)
+    - [Task 3: Setup Azure DevOps project](#task-3-setup-azure-devops-project)
+    - [Task 4: Connect securely to the build agent](#task-4-connect-securely-to-the-build-agent)
+    - [Task 5: Clone Repositories to the Build Agent](#task-5-clone-repositories-to-the-build-agent)
 
 <!-- /TOC -->
 
