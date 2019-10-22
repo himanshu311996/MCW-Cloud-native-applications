@@ -220,27 +220,25 @@ single node.js site into a website with a content API that serves up the speaker
 
 15. Choose "+ New service connection". Then pick "Docker Registry" from
     the menu.
+    
 
-    ![A screenshot of the Add Docker Registry Service Connection dialog.]<kbd>![](media/docker_register.png)</kbd></br></br>
-
-16. Enter the required information using the service principal information you
-    created earlier.
+      Enter the required information :
 
     - **Registry type**: Others
 
     - **Connection name**: Fabmedical ACR
 
-    - **Docker registry**: Login server of your azure container registry
+    - **Docker registry**: **http://**(Login server of your azure container registry)
 
     - **Docker ID**: Username of your container registry
     
     - **Password**: Enter Password of your container registry, you can get password in Access keys.
 
-    ![A screenshot of the Add Docker Registry Service Connection dialog with the values entered as described above.](media/hol-2019-10-01_20-33-05.png)
+    ![A screenshot of the Add Docker Registry Service Connection dialog with the values entered as described above.]<kbd>![](media/docker_register.png)</kbd></br></br>
 
-17. Select "OK".
+16. Select "OK".
 
-18. Next, choose "Repos" then use the repository dropdown to create a new
+17. Next, choose "Repos" then use the repository dropdown to create a new
     repository by selecting "+ New repository".
 
     ![Repository dropdown](media/b4-image53.png)
@@ -251,7 +249,7 @@ single node.js site into a website with a content API that serves up the speaker
 
     ![Generate Git Credentials](media/b4-image50.png)
 
-19. Copy the Personal Access Token and save it for later steps
+18. Copy the Personal Access Token and save it for later steps
 
 19. Using your cloud shell window, initialize a new git repository for `content-web`.
 
