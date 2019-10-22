@@ -84,12 +84,10 @@ You should follow all of the steps provided in this section _before_ taking part
    ![This is a screenshot of the cloud shell opened in a browser window. Bash was selected.]<kbd>![](media/bash_1.png)</kbd></br></br>
 
 3. Click on **show advanced settings**.
-
-   ![In this screenshot of a Bash window, we have to click on show advanced settings.]<kbd>![](media/bash_2.png)</kbd></br></br>
+     <kbd>![](media/bash_2.png)</kbd></br></br>
 
 4. In **advanced settings** , select **Create new** for storage account and file share and fill the details 
-
-   ![In this screenshot of a Bash window, new storage account and file share will be created.]<kbd>![](media/bash_3.png)</kbd></br></br>
+     <kbd>![](media/bash_3.png)</kbd></br></br>
 
 5. Bash will start working now 
 
