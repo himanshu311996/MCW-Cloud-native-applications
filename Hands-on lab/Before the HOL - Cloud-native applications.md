@@ -221,7 +221,7 @@ single node.js site into a website with a content API that serves up the speaker
 15. Choose "+ New service connection". Then pick "Docker Registry" from
     the menu.
 
-    ![A screenshot of the Add Docker Registry Service Connection dialog.](media/hol-2019-10-01_20-30-17.png)
+    ![A screenshot of the Add Docker Registry Service Connection dialog.]<kbd>![](media/docker_registry.png)</kbd></br></br>
 
 16. Enter the required information using the service principal information you
     created earlier.
