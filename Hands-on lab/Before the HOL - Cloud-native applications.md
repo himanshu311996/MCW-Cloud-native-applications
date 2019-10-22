@@ -79,32 +79,21 @@ You should follow all of the steps provided in this section _before_ taking part
 
    ![The cloud shell icon is highlighted on the menu bar.](media/b4-image35.png)
 
-2. The cloud shell will open in the browser window. Choose "Bash" if prompted or use the left-hand dropdown on the shell menu bar to choose "Bash" (as shown).
+2. The cloud shell will open in the browser window Choose "Bash" if prompted.
 
-   ![This is a screenshot of the cloud shell opened in a browser window. Bash was selected.](media/b4-image36.png)
+   ![This is a screenshot of the cloud shell opened in a browser window. Bash was selected.](media/cloud_shell.png)
 
-3. You should make sure to set your default subscription correctly. To view your current subscription type:
+3. Click on **show advanced settings**.
 
-   ```bash
-   az account show
-   ```
+   ![In this screenshot of a Bash window, we have to click on show advanced settings.](media/cloud_shell2.png)
 
-   ![In this screenshot of a Bash window, az account show has been typed and run at the command prompt. Some subscription information is visible in the window, and some information is obscured.](media/b4-image37.png)
+4. In **advanced settings** , select **Create new** for storage account and file share and fill the details 
 
-4. To list all of your subscriptions, type:
+   ![In this screenshot of a Bash window, new storage account and file share will be created.](media/cloud_shell3.png)
 
-   ```bash
-   az account list
-   ```
+5. Bash will start working now .
 
-   ![In this screenshot of a Bash window, az account list has been typed and run at the command prompt. Some subscription information is visible in the window, and some information is obscured.](media/b4-image38.png)
-
-5. To set your default subscription to something other than the current selection, type the following, replacing {id} with the desired subscription id value:
-
-   ```bash
-   az account set --subscription {id}
-   ```
-
+   
 ### Task 2: Download Starter Files
 
 In this task you will use `git` to copy the lab content to your cloud shell so that the lab starter files will be available.
