@@ -226,13 +226,15 @@ single node.js site into a website with a content API that serves up the speaker
 16. Enter the required information using the service principal information you
     created earlier.
 
-    - **Environment**: Azure Container Registry
+    - **Registry type**: Others
 
     - **Connection name**: Fabmedical ACR
 
-    - **Azure Subscription**: Choose the subscription you are using for the lab
+    - **Docker registry**: Login server of your azure container registry
 
-    - **Azure Container Registry**: Choose the registry created for you by the ARM deployment
+    - **Docker ID**: Username of your container registry
+    
+    - **Password**: Enter Password of your container registry, you can get password in Access keys.
 
     ![A screenshot of the Add Docker Registry Service Connection dialog with the values entered as described above.](media/hol-2019-10-01_20-33-05.png)
 
