@@ -80,8 +80,7 @@ You should follow all of the steps provided in this section _before_ taking part
    ![The cloud shell icon is highlighted on the menu bar.](media/b4-image35.png)
 
 2. The cloud shell will open in the browser window Choose "Bash" if prompted.
-
-   ![This is a screenshot of the cloud shell opened in a browser window. Bash was selected.]<kbd>![](media/bash_1.png)</kbd></br></br>
+     <kbd>![](media/bash_1.png)</kbd></br></br>
 
 3. Click on **show advanced settings**.
      <kbd>![](media/bash_2.png)</kbd></br></br>
