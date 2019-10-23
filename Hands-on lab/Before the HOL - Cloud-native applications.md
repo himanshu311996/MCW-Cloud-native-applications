@@ -11,7 +11,7 @@ You should follow all of the steps provided in this section _before_ taking part
 
 2. The cloud shell will open in the browser window Choose "Bash" if prompted.
 
-    <kbd>![](media/cloudbash_1.png)</kbd>
+    </br>![](media/cloudbash_1.png)</br>
 
 3. Click on **show advanced settings**.
 
