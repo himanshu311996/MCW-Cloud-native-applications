@@ -11,15 +11,15 @@ You should follow all of the steps provided in this section _before_ taking part
 
 2. The cloud shell will open in the browser window Choose "Bash" if prompted.
 
-     <kbd>![](media/bash_1.png)</kbd></br></br>
+     <kbd>![](media/bash_1.png)</kbd>
 
 3. Click on **show advanced settings**.
 
-     <kbd>![](media/bash_2.png)</kbd></br></br>
+     <kbd>![](media/bash_2.png)</kbd>
 
 4. In **advanced settings** , select **Create new** for storage account and file share and fill the details 
      
-     <kbd>![](media/bash_3.png)</kbd></br></br>
+     <kbd>![](media/bash_3.png)</kbd>
 
 5. Bash will start working now 
 
@@ -167,7 +167,7 @@ single node.js site into a website with a content API that serves up the speaker
     
     - **Password**: Enter Password of your container registry, you can get password in Access keys.
 
-    ![A screenshot of the Add Docker Registry Service Connection dialog with the values entered as described above.]<kbd>![](media/docker_register.png)</kbd></br></br>
+    ![A screenshot of the Add Docker Registry Service Connection dialog with the values entered as described above.]<kbd>![](media/docker_register.png)</kbd>
 
 16. Select "OK".
 
