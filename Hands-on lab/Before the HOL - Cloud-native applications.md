@@ -11,15 +11,15 @@ You should follow all of the steps provided in this section _before_ taking part
 
 2. The cloud shell will open in the browser window Choose "Bash" if prompted.
 
-     <kbd>![](media/bash_1.png)</kbd>
+    (media/bash_1.png)
 
 3. Click on **show advanced settings**.
 
-     <kbd>![](media/bash_2.png)</kbd>
+    <kbd>![](media/bash_2.png)</kbd>
 
 4. In **advanced settings** , select **Create new** for storage account and file share and fill the details 
      
-     <kbd>![](media/bash_3.png)</kbd>
+    <kbd>![](media/bash_3.png)</kbd>
 
 5. Bash will start working now 
 
@@ -128,7 +128,7 @@ single node.js site into a website with a content API that serves up the speaker
 
 11. Select the link indicated in the screenshot below to access the advanced settings.
 
-![A screenshot of the Add Azure Resource Manager dialog where you can enter your subscription information.](media/vso-service-connection-settings2.png)
+    ![A screenshot of the Add Azure Resource Manager dialog where you can enter your subscription information.](media/vso-service-connection-settings2.png)
 
 12. Enter the required information using the service principal information you
     created earlier.
@@ -180,7 +180,7 @@ single node.js site into a website with a content API that serves up the speaker
 
     - Once the project is created select "Generate Git credentials".
 
-    ![Generate Git Credentials](media/b4-image50.png)
+      ![Generate Git Credentials](media/b4-image50.png)
 
 18. Copy the Personal Access Token and save it for later steps
 
