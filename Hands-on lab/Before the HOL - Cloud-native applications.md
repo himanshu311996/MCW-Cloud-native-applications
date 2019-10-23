@@ -302,7 +302,7 @@ with them on the build agent.
 > connection. The lab will instruct you to open additional cloudshell sessions
 > as and when needed.
 
-You should follow all steps provided _before_ performing the Hands-on lab.
+After Completing all the steps go to next and perform the Hands-on lab.
 
 [logo]: https://github.com/Microsoft/MCW-Template-Cloud-Workshop/raw/master/Media/ms-cloud-workshop.png
 [devops]: https://dev.azure.com
