@@ -25,7 +25,6 @@ The names of manufacturers, products, or URLs are provided for informational pur
 <!-- TOC -->
 
 - [Cloud-native applications before the hands-on lab setup guide](#cloud-native-applications-before-the-hands-on-lab-setup-guide)
-  - [Requirements](#requirements)
   - [Before the hands-on lab](#before-the-hands-on-lab)
     - [Task 1: Setup Azure Cloud Shell](#task-1-setup-azure-cloud-shell)
     - [Task 2: Download Starter Files](#task-2-download-starter-files)
