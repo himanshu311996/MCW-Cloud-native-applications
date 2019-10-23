@@ -37,40 +37,7 @@ The names of manufacturers, products, or URLs are provided for informational pur
 
 # Cloud-native applications before the hands-on lab setup guide
 
-## Requirements
-
-1. Microsoft Azure subscription must be pay-as-you-go or MSDN.
-
-   - Trial subscriptions will _not_ work.
-
-   - To complete this lab setup (including [Task 5: Create a Service Principal](#Task-5-Create-a-Service-Principal)) ensure your account has the following roles:
-
-     - The [Owner](https://docs.microsoft.com/en-us/azure/role-based-access-control/built-in-roles#owner) built-in role for the subscription you will use.
-     - The [Application Administrator](https://docs.microsoft.com/en-us/azure/active-directory/users-groups-roles/directory-assign-admin-roles#application-administrator) built-in role for the Azure AD tenant you will use.
-       - Check for the Application Administrator Role:
-          - Login to the Azure Portal
-          - Select Azure Active Directory
-          - Select Users
-          - Search for your user name and select
-          - Select Directory role on your user profile page
-          - You should see the list of currently assigned roles and "Application Administrator" should be in the list.
-
-     > **Note** You may have to ask another subscription owner to login to the portal and execute that step ahead of time if you do not have the rights.
-
-   - You must have enough cores available in your subscription to create the build agent and Azure Kubernetes Service cluster in [Task 6: Deploy ARM Template](#Task-6-Deploy-ARM-Template). You'll need eight cores if following the exact instructions in the lab, more if you choose additional agents or larger VM sizes. If you execute the steps required before the lab, you will be able to see if you need to request more cores in your sub.
-
-2. An Azure DevOps account
-
-3. Local machine or a virtual machine configured with:
-
-   - A browser, preferably Chrome for consistency with the lab implementation tests.
-
-4. You will be asked to install other tools throughout the exercises.
-
 ## Before the hands-on lab
-
-**Duration**: 1 hour
-
 You should follow all of the steps provided in this section _before_ taking part in the hands-on lab ahead of time as some of these steps take time.
 
 ### Task 1: Setup Azure Cloud Shell
