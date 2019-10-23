@@ -11,7 +11,7 @@ You should follow all of the steps provided in this section _before_ taking part
 
 2. The cloud shell will open in the browser window Choose "Bash" if prompted.
 
-    ![](media/bash_1.png)
+    ![Screen will appear select Bash](media/bash_1.png)
 
 3. Click on **show advanced settings**.
 
