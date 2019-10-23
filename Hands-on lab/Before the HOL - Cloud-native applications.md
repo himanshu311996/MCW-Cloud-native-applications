@@ -11,15 +11,15 @@ You should follow all of the steps provided in this section _before_ taking part
 
 2. The cloud shell will open in the browser window Choose "Bash" if prompted.
 
-    <kbd>![](media/bash_1.png)</kbd>
+    <kbd>![](media/cloudbash_1.png)</kbd>
 
 3. Click on **show advanced settings**.
 
-    <kbd>![](media/bash_2.png)</kbd>
+    <kbd>![](media/cloudbash_2.png)</kbd>
 
 4. In **advanced settings** , select **Create new** for storage account and file share and fill the details 
      
-    <kbd>![](media/bash_3.png)</kbd>
+    <kbd>![](media/cloudbash_3.png)</kbd>
 
 5. Bash will start working now 
 
@@ -167,7 +167,7 @@ single node.js site into a website with a content API that serves up the speaker
     
     - **Password**: Enter Password of your container registry, you can get password in Access keys.
 
-    ![A screenshot of the Add Docker Registry Service Connection dialog with the values entered as described above.]<kbd>![](media/docker_register.png)</kbd>
+    ![A screenshot of the Add Docker Registry Service Connection dialog with the values entered as described above.]<kbd>![](media/docker_regist.png)</kbd>
 
 16. Select "OK".
 
@@ -250,10 +250,10 @@ VM.
 
 2. In the cloud shell output, paste  the ssh key that you copied earlier enter **yes** when prompted.
 
-   <kbd>![](media/build_agent.png)</kbd></br></br>
+   <kbd>![](media/agent_1.png)</kbd></br></br>
 
 3. Enter the Buid Agent VM password provided in environment details, you will be connected to Build Agent VM:
-   <kbd>![](media/build_agent1.png)</kbd></br></br>
+   <kbd>![](media/agent_2.png)</kbd></br></br>
 
 ### Task 5: Clone Repositories to the Build Agent
 
