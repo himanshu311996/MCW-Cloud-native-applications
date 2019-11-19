@@ -167,7 +167,7 @@ single node.js site into a website with a content API that serves up the speaker
     
     - **Password**: Enter Password of your container registry, you can get password in Access keys.
 
-    ![A screenshot of the Add Docker Registry Service Connection dialog with the values entered as described above.]<kbd>![](media/docker_regist.png)</kbd>
+    <kbd>![](media/docker_regist.png)</kbd>
 
 16. Select "OK".
 
