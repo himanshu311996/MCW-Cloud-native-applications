@@ -154,8 +154,7 @@ single node.js site into a website with a content API that serves up the speaker
 15. Choose "+ New service connection". Then pick "Docker Registry" from
     the menu.
     
-
-      Enter the required information :
+        Enter the required information :
 
     - **Registry type**: Others
 
@@ -166,8 +165,7 @@ single node.js site into a website with a content API that serves up the speaker
     - **Docker ID**: Username of your container registry
     
     - **Password**: Enter Password of your container registry, you can get password in Access keys.
-      
-        ![](media/docker_regist.png)
+    ![](media/docker_regist.png)
 
 16. Select "OK".
 
