@@ -166,8 +166,8 @@ single node.js site into a website with a content API that serves up the speaker
     - **Docker ID**: Username of your container registry
     
     - **Password**: Enter Password of your container registry, you can get password in Access keys.
-
-    <kbd>![](media/docker_regist.png)</kbd>
+      
+      (media/docker_regist.png)
 
 16. Select "OK".
 
